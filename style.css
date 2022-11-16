@@ -11,9 +11,15 @@ header {
     top:0;
     width:100%;
     background-color: rgb(44, 43, 43);
-    height: 130px;
+    height: 100px;
+    flex-direction: column;
     
     
+}
+footer {
+    width:100%;
+    background-color: rgb(44, 43, 43);
+    height: 50px;
 }
 
 #photo {
@@ -31,6 +37,15 @@ h1{
     h1 {
         font-size: 30px;
     }
+   
+}
+@media(max-width:916px){
+    img {
+        margin-top: 20px;
+    }
+    .image:last-child {
+        margin-top: 20px;
+    }
 }
 
 h2{
@@ -43,7 +58,8 @@ p{
     font-size: 30px;
 }
 #ramka{
-    margin-top:130px;
+    
+    padding-top:80px;
 }
 
 .image {
@@ -52,4 +68,8 @@ p{
     justify-content: space-around;
     flex-wrap:wrap;
     margin-top: 30px;
+    
+}
+#vektor {
+    padding-top:80px;
 }
