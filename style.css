@@ -36,8 +36,23 @@ header {
     position: fixed;
     background-color:rgb(216, 141, 98);
     top:100px;
+    left:0px;
     z-index:4;
     transition: 1s;
+}
+
+.okno div {
+    color:red;
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.okno div:hover {
+    cursor: pointer;
+    color:black;
+    font-size: 35px;
 }
 
 .links {

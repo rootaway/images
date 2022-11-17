@@ -1,6 +1,10 @@
 const link = document.querySelector('.links').lastElementChild;
-console.log(link);
+const X = document.querySelector('.okno > div');
 
-function ex(){
-    
-}
+function ex(e){
+    $('.okno').toggleClass('okno1');
+    e.preventDefault();
+};
+
+link.addEventListener('click', ex);
+X.addEventListener('click', ex);
